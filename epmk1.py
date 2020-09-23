@@ -1,5 +1,7 @@
 import tkinter as tk
+import matplotlib
 import matplotlib.pyplot as plt
+matplotlib.use('Agg')
 import numpy as np
 import sympy as sp
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
